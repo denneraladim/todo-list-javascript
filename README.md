@@ -15,9 +15,9 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 
 ## Tecnologias
 
-1. HTML5
-2. CSS3
-3. JavaScript(ES6+)
+1. **`HTML5`**
+2. **`CSS3`**
+3. **`JavaScript(ES6+)`**
 
 ## Etapas do Desenvolvimento
 
