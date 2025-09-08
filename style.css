@@ -62,8 +62,9 @@ ul {
 }
 
 li {
-  background: #222;
-  margin: 10px 0;
+  background-color: #4a148c;
+  color: #eee;
+  margin: 10px auto;
   padding: 10px;
   border-radius: 5px;
   display: flex;

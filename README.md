@@ -48,3 +48,4 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 ## Licença
 
 - Este projeto está sob a licença MIT.
+
