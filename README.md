@@ -22,7 +22,7 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 ## Etapas do Desenvolvimento
 
 - Criar a estrutura HTML da lista de tarefas
-- Estilizar com CSS, pensando em mobile first
+- Criar o arquivo de Estilização com CSS
 - Criar JavaScript para manipulação do DOM
 - Implementar funções para adicionar, concluir, remover e limpar tarefas
 - Atualizar dinamicamente a interface conforme ações do usuário
