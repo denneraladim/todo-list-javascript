@@ -30,7 +30,7 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 
 ## Funcionalidades
 
-➕ Adicionar tarefas com título personalizado
+1. Adicionar os itens Dinamicamente
 
 ✔️ Marcar tarefas como concluídas
 
