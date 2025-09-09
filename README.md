@@ -39,6 +39,8 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 4. Colocar o valor do Input dentro da Li + o Span com o X
 5. Pegar Ul + a Lista e injeta dentro dela a Li
 6. Zerar o Input
+7. Criar a Função de Deletar a Tarefa
+8. Pegar a Li que quero deletar
 
 ## Responsividade
 

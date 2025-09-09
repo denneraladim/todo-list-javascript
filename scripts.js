@@ -2,18 +2,21 @@
 // Adicionar Tarefas, Pegar o texto dentro do input e Adicionar tag html com JavaScript
 
 const AdicionarTarefa = () => {
-    const valorDoInput = document.querySelector("input").value
+    let valorDoInput = document.querySelector("input").value
 
     const li = document.createElement("li")
 
-    li.innerHTML = valorDoInput + "<span>❌</span>"
+    li.innerHTML = valorDoInput + '<span onclick="DeletarTarefa(this)">❌</span>'
 
     document.querySelector("ul").appendChild(li)
 
-    valorDoInput = ""
+    document.querySelector("input").value = ""
 }
 
+const DeletarTarefa = (li) => {
 
+    li.parentElement.remove()
+}
 
 
 
