@@ -27,11 +27,11 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 - Saber quando o botão foi clicado
 - Pegar o texto dentro do input
 - Colocar esse texto na tela
-
+- Criar Funções com Arrow Function
 
 ## Funcionalidades
 
-1. Adicionar os itens Dinamicamente
+1. Adicionar Tarefas
 
 ✔️ Marcar tarefas como concluídas
 
