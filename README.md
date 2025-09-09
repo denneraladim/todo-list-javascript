@@ -24,9 +24,10 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 - Criar a estrutura HTML da lista de tarefas
 - Criar o arquivo de Estilização com CSS
 - Criar JavaScript para manipulação do DOM
-- Implementar funções para adicionar, concluir, remover e limpar tarefas
-- Atualizar dinamicamente a interface conforme ações do usuário
-- Ajustar estilos para telas maiores via media queries
+- Saber quando o botão foi clicado
+- Pegar o texto dentro do input
+- Colocar esse texto na tela
+
 
 ## Funcionalidades
 
