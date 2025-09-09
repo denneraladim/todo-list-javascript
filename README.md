@@ -24,22 +24,21 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 - Criar a estrutura HTML da lista de tarefas
 - Criar o arquivo de Estilização com CSS
 - Criar JavaScript para manipulação do DOM
+- Criar Funções com Arrow Function
 - Saber quando o botão foi clicado
 - Pegar o texto dentro do input
 - Colocar esse texto na tela
-- Criar Funções com Arrow Function
+- Deletar a Tarefa da tela
+- Adicionar Tag HTML com JavaScript
 
 ## Funcionalidades
 
-1. Adicionar Tarefas
-
-✔️ Marcar tarefas como concluídas
-
-❌ Remover tarefas individuais
-
-🧹 Limpar todas as tarefas
-
-🖥 Interface dinâmica que atualiza conforme as tarefas são manipuladas
+1. Criar a Função de Adicionar Tarefa
+2. Pegar o valor do Input
+3. Criar a tag Li do HTML
+4. Colocar o valor do Input dentro da Li + o Span com o X
+5. Pegar Ul + a Lista e injeta dentro dela a Li
+6. Zerar o Input
 
 ## Responsividade
 
