@@ -26,7 +26,7 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 ## Etapas do Desenvolvimento
 
-- Criar a estrutura HTML da lista de tarefas.
+- Criar a estrutura HTML.
 
 - Criar o arquivo de estilização com CSS.
 
