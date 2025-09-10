@@ -11,12 +11,6 @@ body{
     min-height: 100vh; 
 }
 
-.linha{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 .container{
     max-width: 400px;
     margin: 50px auto;
@@ -80,29 +74,14 @@ span{
     cursor: pointer;
 }
 
-/* Media Querie */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+}
 
-@media (min-width: 600px) {
-    .linha{
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .linha input {
-        flex: 1;
-        margin-bottom: 0;
-    }
-
-    .linha button {
-        flex: 0 0 auto;
-    }
-
-    .container {
-        max-width: 600px;
-        padding: 50px;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 70px;
+  }
 }

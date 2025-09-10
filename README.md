@@ -56,7 +56,7 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 - Layout adaptado para dispositivos móveis.
 
-- Ajustes de estilo aplicados via media queries para telas maiores que 600px.
+- Ajustes de estilo aplicados via media queries para telas maiores que aumente o tamanho do texto
 
 
 ## Licença
