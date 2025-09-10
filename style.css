@@ -80,5 +80,9 @@ span{
   h1 {
     font-size: 50px;
   }
+  
+  button {
+    height: 44px;
+  }
 }
 
