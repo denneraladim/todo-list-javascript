@@ -1,17 +1,22 @@
 
 # todo-list-javascript
 
-Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tarefas. Permite adicionar, marcar como concluída e remover tarefas. O design foi pensado mobile first e adaptado para ser responsivo.
+Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tarefas. Permite adicionar e remover tarefas. O design é mobile first e responsivo, com melhorias visuais para uma melhor experiência do usuário.
 
 
-## Como Usar
 
-1. Clone o Repositório:
+## Instalação
 
         git clone https://github.com/seuusuario/todo-list-javascript.git
 
-2.  Abra o arquivo index.html em um navegador moderno (Chrome, Firefox, Edge, etc).
-3.  Comece a adicionar e gerenciar suas tarefas diretamente na página.        
+
+## Acesse a pasta do Projeto
+
+        cd todo-list-javascript
+
+## Execute a aplicação
+
+- Abra o arquivo index.html em um navegador moderno (Chrome, Firefox, Edge etc) 
 
 ## Tecnologias
 
@@ -21,15 +26,20 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 
 ## Etapas do Desenvolvimento
 
-- Criar a estrutura HTML da lista de tarefas
-- Criar o arquivo de Estilização com CSS
-- Criar JavaScript para manipulação do DOM
-- Criar Funções com Arrow Function
-- Saber quando o botão foi clicado
-- Pegar o texto dentro do input
-- Colocar esse texto na tela
-- Deletar a Tarefa da tela
-- Adicionar Tag HTML com JavaScript
+- Criar a estrutura HTML da lista de tarefas.
+
+- Criar o arquivo de estilização com CSS.
+
+- Criar funções JavaScript para manipulação do DOM.
+
+- Adicionar evento de clique no botão para adicionar tarefas (addEventListener).
+
+- Pegar o valor do input, validar com trim() e criar elementos li dinamicamente.
+
+- Criar span com “❌” para deletar tarefas, com evento de clique para remover o li.
+
+- Limpar o input após adicionar uma tarefa.
+
 
 ## Funcionalidades
 
@@ -44,10 +54,13 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript Puro para gerenciar tare
 
 ## Responsividade
 
-- Layout adaptado para dispositivos móveis
-- Ajustes de estilo aplicados via media query para telas maiores que 600px
+- Layout adaptado para dispositivos móveis.
+
+- Ajustes de estilo aplicados via media queries para telas maiores que 600px.
+
 
 ## Licença
 
 - Este projeto está sob a licença MIT.
+
 
