@@ -1,22 +1,52 @@
 
-// Adicionar Tarefas, Pegar o texto dentro do input e Adicionar tag html com JavaScript
+// Selecionar elementos do DOM
+
+const input = document.querySelector("input");
+const BotaoAdicionar = document.querySelector("#btn-adicionar");
+const lista = document.querySelector("ul");
+
+// Evento para adicionar tarefa
+
+BotaoAdicionar.addEventListener("click", () => {
+    AdicionarTarefa();
+});
+
+// Função para adicionar tarefa
 
 const AdicionarTarefa = () => {
-    let valorDoInput = document.querySelector("input").value
+    const valorDoInput = input.value.trim();
 
-    const li = document.createElement("li")
+    if(valorDoInput === ""){
+        return; 
+    }
 
-    li.innerHTML = valorDoInput + '<span onclick="DeletarTarefa(this)">❌</span>'
+    // Cria o elemento li
 
-    document.querySelector("ul").appendChild(li)
+    const li = document.createElement("li");
+    li.textContent = valorDoInput;
 
-    document.querySelector("input").value = ""
-}
+    // Cria o span de deletar
 
-const DeletarTarefa = (li) => {
+    const span = document.createElement("span");
+    span.textContent = "❌";
 
-    li.parentElement.remove()
-}
+    // Evento de deletar a tarefa
+
+    span.addEventListener("click", () => {
+        li.remove();
+    });
+
+    // Monta a li e adiciona na lista
+
+    li.appendChild(span);
+    lista.appendChild(li);
+
+    // Limpa o input
+
+    input.value = "";
+};
+
+
 
 
 
