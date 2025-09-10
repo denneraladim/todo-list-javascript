@@ -1,6 +1,8 @@
 
 # todo-list-javascript
 
+![Todo List](./img/TodoList.png)
+
 Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tarefas. Permite adicionar e remover tarefas. O design é mobile first e responsivo, com melhorias visuais para uma melhor experiência do usuário.
 
 
