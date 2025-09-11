@@ -7,11 +7,9 @@ O projeto está publicado na Vercel: Ver projeto online [Ver projeto online](htt
 
 Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tarefas. Permite adicionar e remover tarefas. O design é mobile first e responsivo, com melhorias visuais para uma melhor experiência do usuário.
 
-
-
 ## Instalação
 
-        git clone https://github.com/seuusuario/todo-list-javascript.git
+    git clone https://github.com/seuusuario/todo-list-javascript.git
 
 
 ## Acesse a pasta do Projeto
@@ -41,7 +39,7 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 - Instalar a Font Awesome no HTML
 
-- Criar funções JavaScript para manipulação do DOM.
+<!-- - Criar funções JavaScript para manipulação do DOM.
 
 - Adicionar evento de clique no botão para adicionar tarefas (addEventListener).
 
@@ -49,7 +47,7 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 - Criar span com “❌” para deletar tarefas, com evento de clique para remover o li.
 
-- Limpar o input após adicionar uma tarefa.
+- Limpar o input após adicionar uma tarefa. -->
 
 
 ## Funcionalidades
