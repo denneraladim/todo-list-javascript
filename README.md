@@ -39,6 +39,12 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 - Criar a  estilização com CSS.
 
+- Criar o Arquivo de JavaScript
+
+- Seleção de Elementos da Dom
+- Funções
+- Eventos
+
 
 <!-- - Criar funções JavaScript para manipulação do DOM.
 
@@ -53,14 +59,16 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 ## Funcionalidades
 
-1. Criar a Função de Adicionar Tarefa
+
+
+<!-- 1. Criar a Função de Adicionar Tarefa
 2. Pegar o valor do Input
 3. Criar a tag Li do HTML
 4. Colocar o valor do Input dentro da Li + o Span com o X
 5. Pegar Ul + a Lista e injeta dentro dela a Li
 6. Zerar o Input
 7. Criar a Função de Deletar a Tarefa
-8. Pegar a Li que quero deletar
+8. Pegar a Li que quero deletar -->
 
 ## Responsividade
 

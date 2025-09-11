@@ -1,4 +1,11 @@
 
+// Seleção de Elementos
+
+
+
+
+
+
 // Selecionar elementos do DOM
 
 // const input = document.querySelector("input");
