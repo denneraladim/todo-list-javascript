@@ -27,12 +27,19 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 1. **`HTML5`**
 2. **`CSS3`**
 3. **`JavaScript(ES6+)`**
+4. **`Font Awesome`**
+
+## Documentação
+[Font Awesome](https://cdnjs.com/libraries/font-awesome)
+
 
 ## Etapas do Desenvolvimento
 
 - Criar a estrutura HTML.
 
 - Criar o arquivo de estilização com CSS.
+
+- Instalar a Font Awesome no HTML
 
 - Criar funções JavaScript para manipulação do DOM.
 
