@@ -59,7 +59,13 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 
 ## Funcionalidades
 
-
+1. Selecionar todo o Formulário
+2. Input de Adicionar Tarefa
+3. Mapear as listas
+4. Mapear o edit form
+5. Mapear o campo de edição
+6. Mapear o campo de cancelar a edição
+7. Criar o evento de enviar o formulário
 
 <!-- 1. Criar a Função de Adicionar Tarefa
 2. Pegar o valor do Input
