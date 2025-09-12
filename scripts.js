@@ -7,6 +7,8 @@ const todoList = document.querySelector("#todo-list");
 const editForm = document.querySelector("#edit-form");
 const editInput = document.querySelector("#edit-input");
 const cancelEditBtn = document.querySelector("#cancel-edit-btn");
+const searchInput = document.querySelector("#search-input");
+const filterSelect = document.querySelector("#filter-select");
 
 let oldInputValue;
 
@@ -62,6 +64,43 @@ const updateTodo = (text) => {
     })
 }
 
+// Pesquisar Tarefas
+
+const getSearchedTodos = (search) => {
+  const todos = document.querySelectorAll(".todo");
+ todos.forEach((todo) => {
+    const todoTitle = todo.querySelector("h3").innerText.toLowerCase();
+  todo.style.display = "flex"; 
+
+    if (!todoTitle.includes(search.toLowerCase())) {
+      todo.style.display = "none";
+    }
+  });
+};
+
+// Filtrar Tarefas
+
+const filterTodos = (filterValue) => {
+  const todos = document.querySelectorAll(".todo");
+
+  todos.forEach((todo) => {
+    switch (filterValue) {
+      case "all":
+        todo.style.display = "flex";
+        break;
+      case "done":
+        todo.classList.contains("done")
+          ? (todo.style.display = "flex")
+          : (todo.style.display = "none");
+        break;
+      case "todo":
+        !todo.classList.contains("done")
+          ? (todo.style.display = "flex")
+          : (todo.style.display = "none");
+        break;
+    }
+  });
+};
 // Eventos
 
 todoForm.addEventListener("submit", (e) => {
@@ -118,59 +157,13 @@ editForm.addEventListener("submit", (e) => {
     toggleForms();
 })
 
+searchInput.addEventListener("keyup", (e) => {
+  const search = e.target.value;
+  getSearchedTodos(search);
+});
 
-
-
-
-// Selecionar elementos do DOM
-
-// const input = document.querySelector("input");
-// const BotaoAdicionar = document.querySelector("#btn-adicionar");
-// const lista = document.querySelector("ul");
-
-// Evento para adicionar tarefa
-
-// BotaoAdicionar.addEventListener("click", () => {
-//     AdicionarTarefa();
-// });
-
-// Função para adicionar tarefa
-
-// const AdicionarTarefa = () => {
-//     const valorDoInput = input.value.trim();
-
-//     if(valorDoInput === ""){
-//         return;
-//     }
-
-//     // Cria o elemento li
-
-//     const li = document.createElement("li");
-//     li.textContent = valorDoInput;
-
-//     // Cria o span de deletar
-
-//     const span = document.createElement("span");
-//     span.textContent = "❌";
-
-//     // Evento de deletar a tarefa
-
-//     span.addEventListener("click", () => {
-//         li.remove();
-//     });
-
-//     // Monta a li e adiciona na lista
-
-//     li.appendChild(span);
-//     lista.appendChild(li);
-
-//     // Limpa o input
-
-//     input.value = "";
-// };
-
-
-
-
-
+filterSelect.addEventListener("change", (e) => {
+  const filterValue = e.target.value;
+  filterTodos(filterValue);
+});
 

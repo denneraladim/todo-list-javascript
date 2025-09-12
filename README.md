@@ -71,7 +71,9 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 10. Criar uma função de salvar a tarefa
 11. Criar de limpar o input
 12. Criar o evento do clique dos botões 
-13. Esconder o Fomulário 
+13. Esconder o Fomulário
+14. Criar o de Pesquisar e Filtrar
+15. Inserido os medias queries 
 
 <!-- 1. Criar a Função de Adicionar Tarefa
 2. Pegar o valor do Input
