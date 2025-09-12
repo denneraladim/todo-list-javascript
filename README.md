@@ -1,7 +1,7 @@
 
 # todo-list-javascript
 
-O projeto está publicado na Vercel: Ver projeto online [Ver projeto online]()(Abre em uma nova aba)
+O projeto está publicado na Vercel: Ver projeto online [Ver projeto online](https://todo-list-javascript-lilac.vercel.app/)(Abre em uma nova aba)
 
 ![Todo List](./img/ListaTarefas.png)
 
