@@ -14,8 +14,16 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 // Eventos
 
 todoForm.addEventListener("submit", (e) => {
-    e.preventDefault
-})
+    e.preventDefault();
+
+    const inputValue = todoInput.value
+
+    if(inputValue){
+        console.log(inputValue);
+    }
+});
+
+
 
 
 
@@ -38,7 +46,7 @@ todoForm.addEventListener("submit", (e) => {
 //     const valorDoInput = input.value.trim();
 
 //     if(valorDoInput === ""){
-//         return; 
+//         return;
 //     }
 
 //     // Cria o elemento li

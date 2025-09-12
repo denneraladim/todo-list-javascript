@@ -66,6 +66,8 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 5. Mapear o campo de edição
 6. Mapear o campo de cancelar a edição
 7. Criar o evento de enviar o formulário
+8. Pegar o valor do input digitado
+9. Criar uma validação
 
 <!-- 1. Criar a Função de Adicionar Tarefa
 2. Pegar o valor do Input
