@@ -68,6 +68,8 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 7. Criar o evento de enviar o formulário
 8. Pegar o valor do input digitado
 9. Criar uma validação
+10. Criar uma função de salvar a tarefa
+11. Criar de limpar o input 
 
 <!-- 1. Criar a Função de Adicionar Tarefa
 2. Pegar o valor do Input
