@@ -69,7 +69,9 @@ Aplicação web desenvolvida com HTML, CSS e JavaScript(ES6+) para gerenciar tar
 8. Pegar o valor do input digitado
 9. Criar uma validação
 10. Criar uma função de salvar a tarefa
-11. Criar de limpar o input 
+11. Criar de limpar o input
+12. Criar o evento do clique dos botões 
+13. Esconder o Fomulário 
 
 <!-- 1. Criar a Função de Adicionar Tarefa
 2. Pegar o valor do Input
